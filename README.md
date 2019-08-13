@@ -1,4 +1,4 @@
-# Shop-Mangaer
+# Shop-Manager
 A Full-stack Replenisher Task List Shop Manager Application
 
 
