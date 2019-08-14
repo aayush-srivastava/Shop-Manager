@@ -23,7 +23,7 @@ Shop-Manager>mvn clean install
 ### Running the generated .war file:
 * Next, execute the file generated inside the 'target' folder as:
 ```
-Walsmart>java -jar target/walsmart-0.0.1-SNAPSHOT.war
+Shop-Manager>java -jar target/walsmart-0.0.1-SNAPSHOT.war
 ```
 
 ### Running the application:
@@ -60,17 +60,17 @@ http://localhost:8080
 ## Running Tests:
 
 ### Get Test Summary during installation using Maven:
-* First, navigate to 'Walsmart' folder and build the project as:
+* First, navigate to 'Shop-Manager' folder and build the project as:
 ```
-Walsmart>mvn clean install
+Shop-Manager>mvn clean install
 ```
 * This will print a Test summary of all Tests
 
 ### Running individual Tests from the Command Line:
-* Navigate to 'Walsmart' folder:
+* Navigate to 'Shop-Manager' folder:
 * The following tests are available for running:
 ```
-Walsmart>mvn -Dtest=com.aman.WalsmartTests test
+Shop-manager>mvn -Dtest=com.aman.WalsmartTests test
 
 Walsmart>mvn -Dtest=com.aman.controller.AssignmentsControllerTest test
 Walsmart>mvn -Dtest=com.aman.controller.AssignmentsControllerTest#tasksList test
